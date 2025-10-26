@@ -102,8 +102,7 @@ for root, dirs, files in os.walk(project_root):
 #_____________ another solution but not production bcoz i am sure its safe for production
 
 #DELETE FROM django_migrations;
-# DROP SCHEMA public CASCADE;
-# CREATE SCHEMA public;
+
 
 
 # python manage.py makemigrations
